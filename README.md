@@ -12,3 +12,8 @@ This repository presents a hardware-software co-design (HSCD) implementation of 
 
 📡 AXI-Lite Interface for seamless FPGA–ARM communication.
 
+## 🎬 Watch the Demo
+
+Check out this demo walkthrough of the AES‑128 hardware–software co‑design on PYNQ‑Z2:
+
+[![Watch the demo](https://img.youtube.com/vi/bTiKk6Puxxo/0.jpg)](https://www.youtube.com/watch?v=bTiKk6Puxxo)
