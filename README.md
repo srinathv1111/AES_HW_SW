@@ -35,9 +35,11 @@ ARM Frequency: 667 MHz
 Scalability: Extendable to AES-192 and AES-256 with no hardware changes
 
 📈 Performance
-Operation	Pure Software (ms)	HW Accelerated (ms)	Speedup
-Encryption	45	10.6	4.2×
-Decryption	60	4.5	13.3×
+| Operation  | Pure Software (ms) | HW Accelerated (ms) | Speedup |
+| ---------- | ------------------ | ------------------- | ------- |
+| Encryption | 45                 | 10.6                | 4.2×    |
+| Decryption | 60                 | 4.5                 | 13.3×   |
+
 
 ## 🎬 Watch the Demo
 
