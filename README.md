@@ -34,6 +34,11 @@ Operating Frequency: 200 MHz for FPGA IP
 ARM Frequency: 667 MHz
 Scalability: Extendable to AES-192 and AES-256 with no hardware changes
 
+📈 Performance
+Operation	Pure Software (ms)	HW Accelerated (ms)	Speedup
+Encryption	45	10.6	4.2×
+Decryption	60	4.5	13.3×
+
 ## 🎬 Watch the Demo
 
 Check out this demo walkthrough of the AES‑128 hardware–software co‑design on PYNQ‑Z2:
