@@ -30,9 +30,9 @@ Building the Hardware IP
 2) Export as AXI IP and integrate with the Zynq Processing System.
 
 📊 Results Snapshot
-Operating Frequency: 200 MHz for FPGA IP
-ARM Frequency: 667 MHz
-Scalability: Extendable to AES-192 and AES-256 with no hardware changes
+1) Operating Frequency: 200 MHz for FPGA IP
+2) ARM Frequency: 667 MHz
+3) Scalability: Extendable to AES-192 and AES-256 with no hardware changes
 
 📈 Performance
 | Operation  | Pure Software (ms) | HW Accelerated (ms) | Speedup |
