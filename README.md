@@ -11,6 +11,40 @@ This repository presents a hardware-software co-design (HSCD) implementation of 
 ⚡ Speedup: ~4.2× faster encryption and ~13.3× faster decryption compared to software-only execution.
 
 📡 AXI-Lite Interface for seamless FPGA–ARM communication.
+⚙️ Getting Started
+Prerequisites
+PYNQ-Z2 Board with SD card image
+
+Vivado & Vitis (2022.1+)
+
+PMOD OLED Display (optional for visualization)
+
+How to Run
+Clone this repo on your PYNQ board.
+
+Open the Jupyter Notebook interface (http://<board_ip>:9090)
+
+Run the provided notebook to:
+
+Send state matrix to FPGA
+
+Execute AES-128
+
+Display encrypted result on OLED
+
+Building the Hardware IP
+Open the Vivado project and synthesize the 4×4 systolic array.
+
+Export as AXI IP and integrate with the Zynq Processing System.
+
+Use Vitis to create the software application and program the FPGA.
+
+📊 Results Snapshot
+Operating Frequency: 200 MHz for FPGA IP
+
+ARM Frequency: 667 MHz
+
+Scalability: Extendable to AES-192 and AES-256 with no hardware changes
 
 ## 🎬 Watch the Demo
 
