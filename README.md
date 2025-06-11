@@ -18,17 +18,16 @@ PYNQ-Z2 Board with SD card image
 Vivado & Vitis (2022.1+)
 PMOD OLED Display (optional for visualization)
 
-How to Run
-Clone this repo on your PYNQ board.
-Open the Jupyter Notebook interface (http://<board_ip>:9090)
-Run the provided notebook to:
-Send state matrix to FPGA
-Execute AES-128
-Display encrypted result on OLED
+How to Run (Refer to the youtube link for detailed tutorial)
+1) Clone this repo on your PYNQ board.
+2) Open the Jupyter Notebook interface and upload the SW files
+4) Download the HW project files and generate bitstream
+5) Upload .bit and .hwh files to Jupyter 
+6) Run the project
 
 Building the Hardware IP
-Open the Vivado project and synthesize the 4×4 systolic array.
-Export as AXI IP and integrate with the Zynq Processing System.
+1) Open the Vivado project and synthesize the 4×4 systolic array.
+2) Export as AXI IP and integrate with the Zynq Processing System.
 
 📊 Results Snapshot
 Operating Frequency: 200 MHz for FPGA IP
